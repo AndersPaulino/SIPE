@@ -1,0 +1,759 @@
+
+*{  
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, white 0%, #828788 100%) ;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+    background-color:#5f6262;
+}
+footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2865px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+    background-color:#5f6262;
+}
+section{
+    min-height: 700px;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 600px;
+    width: 75px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF463A;
+}
+.logo h1{
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    font-family: 'Comic';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 86, 32);
+    text-shadow: 0.05em 0.05em #333;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links .link1 a{
+    position: absolute;
+    left: 750px;
+    top: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.links .link2 a{
+    position: absolute;
+    left: 850px;
+    top: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.links .link3 a{
+    position: absolute;
+    left: 950px;
+    top: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.links .link4 a{
+    position: absolute;
+    left: 1050px;
+    top: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.link1 a:hover{
+    color: rgb(235, 86, 32);
+    top: 10px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0.05em 0.05em #333;
+}
+.link2 a:hover{
+    color: rgb(235, 86, 32);
+    top: 10px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0.05em 0.05em #333;
+}
+.link3 a:hover{
+    color: rgb(235, 86, 32);
+    top: 10px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0.05em 0.05em #333;
+}
+.link4 a:hover{
+    color: rgb(235, 86, 32);
+    top: 10px;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0.05em 0.05em #333;
+}
+
+.link5{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 1200px;
+    top: 15px;
+}
+.link5 img{
+    padding-right: 15px;
+}
+.link5 a{
+    text-decoration: none;
+}
+#pagina1{
+    position: absolute;
+    top:55px;
+    left: 575px;
+    width: 750px;
+    background-color:#828788;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.logo1 {
+    position: absolute;
+    top: 150px;
+    left: 295px;
+    width: 170px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF463A;
+    opacity: 0.93;
+}
+.logo1 h1{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-family: 'Comic';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(235, 86, 32);
+    text-shadow: 0.05em 0.05em #333;
+}
+.logo1 h2{
+    position: absolute;
+    top: 145px;
+    left: 12px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.frase h3{
+    position: absolute;
+    top: 400px;
+    left: 115px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.frase span{
+    position: static;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.esk {
+    position: absolute;
+    left: 85px;
+    top: 50px;
+}
+#pagina2{
+    position: absolute;
+    top: 760px;
+    left: 575px;
+    width: 750px;
+    background-color:#828788;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.sb {
+    position: absolute;
+    top: 50px;
+    left: 295px;
+    width: 150px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF463A;
+    opacity: 0.93; 
+}
+.sb h1{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-family: 'Comic';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(235, 86, 32);
+    text-shadow: 0.05em 0.05em #333;
+}
+.sb h2{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}
+.dev1 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 10px;
+    top: 200px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.dev1 h1{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.dev1 img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 7px;
+    top: 10px;
+}
+.dev2 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 200px;
+    top: 200px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.dev2 h1{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.dev2 img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 7px;
+    top: 10px;
+}
+.dev3 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 390px;
+    top: 200px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.dev3 h1{
+    position: absolute;
+    top: 150px;
+    left: 7px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.dev3 img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 7px;
+    top: 10px;
+    transform: rotate(-90deg);
+}
+.dev4 {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 585px;
+    top: 200px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.dev4 h1{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.dev4 img{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 7px;
+    top: 10px;
+}
+.projeto{
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    left: 15px;
+    top: 450px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.projeto h1{
+    position: absolute;
+    top: -40px;
+    left: 310px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 0.05em 0.05em #333;
+}  
+.projeto p{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 700px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    text-align:justify;
+    color: #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.ig img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top:30px;
+    left: 20px;
+}
+.ig2 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:20px;
+    right: 20px;
+}
+#pagina3{
+    position: absolute;
+    top: 1460px;
+    left: 580px;
+    width: 750px;
+    background-color:#828788;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.prod{
+    position: absolute;
+    top: 50px;
+    left: 295px;
+    width: 150px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF463A;
+    opacity: 0.93;  
+}
+.prod h1{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-family: 'Comic';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 86, 32);
+    text-shadow: 0.05em 0.05em #333;
+}
+
+#pagina4{
+    position: absolute;
+    top: 2170px;
+    left: 575px;
+    width: 750px;
+    background-color:#828788;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.cont{
+    position: absolute;
+    top: 50px;
+    left: 295px;
+    width: 150px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #FF463A;
+    opacity: 0.93;  
+}
+.cont h1{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    font-family: 'Comic';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(235, 86, 32);
+    text-shadow: 0.05em 0.05em #333;
+}
+.box form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box label{
+    padding-bottom: 15px;
+}
+.box input{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align:center;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    left: 0px;
+    top: 200px;
+    color: #FF463A;
+    border: 2px solid #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.buttom{
+    position: absolute;
+    top: 425px;
+    left: 325px;
+    width: 100px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 2px solid #FF463A;
+    text-shadow: 0.05em 0.05em #333;
+}
+.buttom a{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    left: 12px;
+    top: 7.5px;
+}
+.prod2{
+    position: absolute;
+    width: 720px;
+    height: 200px;
+    left: 15px;
+    top: 450px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.free{
+    position: absolute;
+    width: 240px;
+    height: 350px;
+    left: 100px;
+    top: 180px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.mens{
+    position: absolute;
+    width: 240px;
+    height: 350px;
+    left: 415px;
+    top: 180px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.bot1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 280px;
+    left: 65px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.bot2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 280px;
+    left: 65px;
+    border: 2px solid #FF463A;
+    background-color: bisque;
+    box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.bot1 a{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    left: 20px;
+    top: 2px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.bot2 a{
+    color: #FF463A;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    left: 15px;
+    top: 2px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.mens h1{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    left: 65px;
+    top: 25px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.mens h2{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    left: 55px;
+    top: 50px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.mens p{
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    left: 0px;
+    padding: 0px 10px 0px 20px;
+    top: 100px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.free h1{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    left: 70px;
+    top: 35.1px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.free h2{
+    position: absolute;
+    color: #FF463A;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    left: 55px;
+    top: 50px;
+    text-shadow: 0.05em 0.05em #333;
+}
+.free p{
+    position: absolute;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    left: 0px;
+    padding: 0px 10px 0px 20px;
+    top: 100px;
+    text-shadow: 0.05em 0.05em #333;
+}
+@media screen and (max-width:1441px) {
+    .logo{
+        left: 400px;
+    }
+    .links .link1 a{
+        left: 550px;
+    }
+    .links .link2 a{
+        left: 650px;
+    }
+    .links .link3 a{
+        left: 750px;
+    }
+    .links .link4 a{
+        left: 850px;
+    }
+    .link5 {
+        left: 980px;
+    }
+    #pagina1{
+        left: 375px;
+    }
+    #pagina2{
+        left: 375px;
+    }
+    #pagina3{
+        left: 375px;
+    }
+    #pagina4{
+        left: 375px;
+    }
+}
+@media screen and (min-width: 1024px ) and (max-width:1285.60px) {
+    .logo{
+        left: 300px;
+    }
+    .links .link1 a{
+        left: 450px;
+    }
+    .links .link2 a{
+        left: 550px;
+    }
+    .links .link3 a{
+        left: 650px;
+    }
+    .links .link4 a{
+        left: 750px;
+    }
+    .link5 {
+        left: 900px;
+    }
+    #pagina1{
+        left: 275px;
+    }
+    #pagina2{
+        left: 275px;
+    }
+    #pagina3{
+        left: 275px;
+    }
+    #pagina4{
+        left: 275px;
+    }
+}
