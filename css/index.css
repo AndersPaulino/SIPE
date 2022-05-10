@@ -725,7 +725,7 @@ section{
         left: 375px;
     }
 }
-@media screen and (min-width: 1024px ) and (max-width:1285.60px) {
+@media screen and (min-width: 1024px ) and (max-width:1200px) {
     .logo{
         left: 300px;
     }
