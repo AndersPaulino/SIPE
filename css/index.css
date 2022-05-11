@@ -789,7 +789,7 @@ section{
         left: 300px;
     }
     #pagina1{
-        left: 0px;
+        left: 7px;
         top: 70px;
         width: 410px;
     }
@@ -810,7 +810,7 @@ section{
         left: 20px;
     }
     #pagina2{
-        left: 0px;
+        left: 7px;
         width: 410px;
         top: 575px;
         height: 1000px;
@@ -851,7 +851,7 @@ section{
         width:350px;
     }    
     #pagina3{
-        left: 0px;
+        left: 7px;
         width: 410px;
         top: 1580px;
         height: 920px;
@@ -868,7 +868,7 @@ section{
     }
     #pagina4{
         width: 410px;
-        left: 0px;
+        left: 7px;
         top: 2505px;
     }
     #pagina4 .cont{
