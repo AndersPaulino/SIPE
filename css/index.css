@@ -757,3 +757,132 @@ section{
         left: 275px;
     }
 }
+@media screen and (min-width: 375px ) and (max-width:425px) {
+    header{
+        height: 65px;
+    }
+    section{
+        min-height: 500px;
+    }
+    .logo{
+        top: 10px;
+        left: 5px;
+    }
+    .links .link1 a{
+        left: 100px;
+        top: 8px;
+    }
+    .links .link2 a{
+        left: 100px;
+        top: 38px;
+    }
+    .links .link3 a{
+        left: 190px;
+        top: 8px;
+    }
+    .links .link4 a{
+        left: 190px;
+        top: 38px;
+    }
+    .link5 {
+        top: 20px;
+        left: 300px;
+    }
+    #pagina1{
+        left: 0px;
+        top: 70px;
+    }
+    #pagina1 .logo1{
+        top: 125px;
+        left: 125px;
+    }
+    #pagina1 .esk {
+        left: 10px;
+    }
+    #pagina1 .frase h3{
+        left: 0px;
+        top: 300px;
+        font-size: 14px;
+    }
+    #pagina1 .esk img{
+        width: 400px;
+        left: 20px;
+    }
+    #pagina2{
+        left: 0px;
+        top: 575px;
+        height: 1000px;
+    }
+    #pagina2 .sb{
+        left: 135px;
+    }
+    #pagina2 .ig img{
+        top: 50px;
+    }
+    #pagina2 .ig2 img{
+        top: 45px;
+        left: 300px;
+    }
+    #pagina2 .dev1 {
+        left: 45px;
+    }
+    #pagina2 .dev2 {
+        left: 215px;
+    }
+    #pagina2 .dev3 {
+        left: 45px;
+        top: 415px;
+    }
+    #pagina2 .dev4 {
+        left: 215px;
+        top: 415px;
+    }
+    #pagina2 .projeto {
+        top: 675px;
+        width: 375px;
+        height: 300px;
+    }
+    #pagina2 .projeto h1{
+        left: 150px;
+    }
+    #pagina2 .projeto p{
+        width:350px;
+    }    
+    #pagina3{
+        left: 0px;
+        top: 1580px;
+        height: 920px;
+    }
+    #pagina3 .prod{
+        left: 130px;
+    }
+    #pagina3 .free{
+        left: 85px;
+    }
+    #pagina3 .mens{
+        left: 85px;
+        top: 550px;
+    }
+    #pagina4{
+        left: 0px;
+        top: 2505px;
+    }
+    #pagina4 .cont{
+        left: 130px;
+    }
+    #pagina4 .buttom{
+        left: 155px;
+    }
+    #pagina4 #Name{
+        left: -165px;
+    }
+    #pagina4 #Email{
+        left: -165px;
+    }
+    #pagina4 #Telefone{
+        left: -165px;
+    }
+    footer{
+        top: 3000px;
+    }
+}
