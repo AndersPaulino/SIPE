@@ -791,13 +791,14 @@ section{
     #pagina1{
         left: 0px;
         top: 70px;
+        width: 410px;
     }
     #pagina1 .logo1{
         top: 125px;
         left: 125px;
     }
     #pagina1 .esk {
-        left: 10px;
+        left: 5px;
     }
     #pagina1 .frase h3{
         left: 0px;
@@ -810,6 +811,7 @@ section{
     }
     #pagina2{
         left: 0px;
+        width: 410px;
         top: 575px;
         height: 1000px;
     }
@@ -850,6 +852,7 @@ section{
     }    
     #pagina3{
         left: 0px;
+        width: 410px;
         top: 1580px;
         height: 920px;
     }
@@ -864,6 +867,7 @@ section{
         top: 550px;
     }
     #pagina4{
+        width: 410px;
         left: 0px;
         top: 2505px;
     }
